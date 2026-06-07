@@ -24,7 +24,16 @@ layout: cover
     <p class="text-2xl mt-2" style="color: var(--k-gray)">June 2026</p>
     <div class="mt-8 flex flex-col gap-3">
       <div class="flex items-center gap-3">
+        <img src="/Tzachi.png" alt="Tzachi Shahak" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
         <span class="text-sm font-medium" style="color:var(--k-dark)">Tzachi Shahak</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <img src="/pavel.png" alt="Pavel Krigman" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+        <span class="text-sm font-medium" style="color:var(--k-dark)">Pavel Krigman</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <img src="/noy2.png" alt="Noy Sabbag" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+        <span class="text-sm font-medium" style="color:var(--k-dark)">Noy Sabbag</span>
       </div>
     </div>
   </div>
@@ -46,9 +55,81 @@ layout: section
 # Divider #1
 
 <div class="flex items-center gap-3 mt-4">
-  <div class="rounded-full bg-white/20" style="width:44px;height:44px;flex-shrink:0;"></div>
-  <span style="color:rgba(255,255,255,0.5); font-size:0.95em;">Speaker Name</span>
+  <img src="/Tzachi.png" alt="Tzachi Shahak" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+  <span style="color:rgba(255,255,255,0.5); font-size:0.95em;">Tzachi Shahak</span>
 </div>
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
 
 ---
 
@@ -87,6 +168,70 @@ layout: section
 # Placeholder
 
 ---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
 layout: section
 ---
 
@@ -105,6 +250,70 @@ layout: section
   <div class="rounded-full bg-white/20" style="width:44px;height:44px;flex-shrink:0;"></div>
   <span style="color:rgba(255,255,255,0.5); font-size:0.95em;">Speaker Name</span>
 </div>
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
+
+---
+
+# Placeholder
 
 ---
 
