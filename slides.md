@@ -40,6 +40,68 @@ layout: cover
 </div>
 
 ---
+
+# Agenda
+
+<div class="flex h-full gap-6 items-start" style="padding-top: 8px;">
+
+  <!-- Left: numbered list -->
+  <div class="flex-1 flex flex-col gap-3">
+    <div class="flex items-center gap-4">
+      <div class="flex-none w-9 h-9 rounded-full flex items-center justify-center font-bold text-sm" style="background:var(--k-yellow);color:var(--k-dark);">1</div>
+      <span class="text-base">Updates &amp; Notes - Tzachi (15min)</span>
+    </div>
+    <div class="flex items-center gap-4">
+      <div class="flex-none w-9 h-9 rounded-full flex items-center justify-center font-bold text-sm" style="background:var(--k-yellow);color:var(--k-dark);">2</div>
+      <span class="text-base">Item 2 - Pavel (5min)</span>
+    </div>
+    <div class="flex items-center gap-4">
+      <div class="flex-none w-9 h-9 rounded-full flex items-center justify-center font-bold text-sm" style="background:var(--k-yellow);color:var(--k-dark);">3</div>
+      <span class="text-base">Item 3 - Noy (5min)</span>
+    </div>
+    <div class="flex items-center gap-4">
+      <div class="flex-none w-9 h-9 rounded-full flex items-center justify-center font-bold text-sm" style="background:var(--k-yellow);color:var(--k-dark);">4</div>
+      <span class="text-base">Item 4 (10min)</span>
+    </div>
+    <div class="flex items-center gap-4">
+      <div class="flex-none w-9 h-9 rounded-full flex items-center justify-center font-bold text-sm" style="background:var(--k-yellow);color:var(--k-dark);">5</div>
+      <span class="text-base">Item 5 (10min)</span>
+    </div>
+    <div class="flex items-center gap-4">
+      <div class="flex-none w-9 h-9 rounded-full flex items-center justify-center font-bold text-sm" style="background:var(--k-yellow);color:var(--k-dark);">6</div>
+      <span class="text-base">Q&amp;A (5min)</span>
+    </div>
+  </div>
+
+  <!-- Right: decorative shapes composition -->
+  <div class="flex-1 relative flex items-center justify-center" style="height:380px;">
+    <div class="absolute rounded-full" style="width:280px;height:280px;background:var(--k-yellow);top:50%;left:50%;transform:translate(-50%,-50%);"></div>
+    <div class="absolute" style="top:0px;left:50%;transform:translateX(-50%);z-index:3;">
+      <KShape name="star" color="black" height="36px" />
+    </div>
+    <div class="absolute" style="top:10px;right:0px;z-index:3;">
+      <KShape name="fastforward" color="blue" height="52px" />
+    </div>
+    <div class="absolute" style="top:120px;left:10px;z-index:3;">
+      <KShape name="play" color="pink" height="52px" />
+    </div>
+    <div class="absolute" style="top:140px;right:10px;z-index:3;">
+      <KShape name="screen" color="green" height="40px" />
+    </div>
+    <div class="absolute" style="bottom:20px;left:50%;transform:translateX(-30%);z-index:3;">
+      <KShape name="logo-shape-large" color="red" height="70px" />
+    </div>
+    <div class="absolute" style="bottom:16px;left:50%;transform:translateX(-80%);z-index:4;">
+      <KShape name="star" color="yellow" height="30px" />
+    </div>
+    <div class="absolute" style="bottom:60px;right:10px;z-index:3;">
+      <KShape name="star" color="black" height="24px" />
+    </div>
+  </div>
+
+</div>
+
+---
 layout: section
 ---
 
@@ -52,11 +114,11 @@ layout: section
   <KShape name="star" color="yellow" height="40px" />
 </div>
 
-# Divider #1
+# Updates & Notes
 
 <div class="flex items-center gap-3 mt-4">
-  <img src="/Tzachi.png" alt="Tzachi Shahak" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
-  <span style="color:rgba(255,255,255,0.5); font-size:0.95em;">Tzachi Shahak</span>
+  <img src="/Tzachi.png" alt="Tzachi Shahak" style="width:44px;height:44px;border-radius:50%;object-fit:cover;object-position:top;" />
+  <span style="color:rgba(255,255,255,0.7); font-size:0.95em;">Tzachi Shahak</span>
 </div>
 
 ---
@@ -155,8 +217,8 @@ layout: section
 # Divider #2
 
 <div class="flex items-center gap-3 mt-4">
-  <div class="rounded-full bg-white/20" style="width:44px;height:44px;flex-shrink:0;"></div>
-  <span style="color:rgba(255,255,255,0.5); font-size:0.95em;">Speaker Name</span>
+  <img src="/pavel.png" alt="Pavel Krigman" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+  <span style="color:rgba(255,255,255,0.5); font-size:0.95em;">Pavel Krigman</span>
 </div>
 
 ---
@@ -247,8 +309,8 @@ layout: section
 # Divider #3
 
 <div class="flex items-center gap-3 mt-4">
-  <div class="rounded-full bg-white/20" style="width:44px;height:44px;flex-shrink:0;"></div>
-  <span style="color:rgba(255,255,255,0.5); font-size:0.95em;">Speaker Name</span>
+  <img src="/noy2.png" alt="Noy Sabbag" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;" />
+  <span style="color:rgba(255,255,255,0.5); font-size:0.95em;">Noy Sabbag</span>
 </div>
 
 ---
