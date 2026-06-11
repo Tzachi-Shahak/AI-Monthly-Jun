@@ -280,10 +280,10 @@ layout: default
 
 # Live Walkthrough
 
-<div class="flex flex-col items-center justify-center mt-6 gap-6">
-  <div class="text-6xl">🎬</div>
-  <div class="text-2xl font-bold">Video placeholder</div>
-  <p class="text-gray-400 text-center max-w-md">Add a walkthrough video of the Nomura Project Timeline Tracker here</p>
+<div class="flex justify-center mt-4">
+  <video controls class="rounded-xl" style="max-height:400px; max-width:100%;">
+    <source src="/pavel/nomura-walkthrough.mp4" type="video/mp4" />
+  </video>
 </div>
 
 ---
@@ -382,10 +382,10 @@ layout: default
 
 # Live Walkthrough
 
-<div class="flex flex-col items-center justify-center mt-6 gap-6">
-  <div class="text-6xl">🎬</div>
-  <div class="text-2xl font-bold">Video placeholder</div>
-  <p class="text-gray-400 text-center max-w-md">Add a walkthrough video of the Geo Location Report Tool here</p>
+<div class="flex justify-center mt-4">
+  <video controls class="rounded-xl" style="max-height:400px; max-width:100%;">
+    <source src="/pavel/geo-walkthrough.mp4" type="video/mp4" />
+  </video>
 </div>
 
 ---
@@ -480,10 +480,10 @@ layout: default
 
 # Live Walkthrough
 
-<div class="flex flex-col items-center justify-center mt-6 gap-6">
-  <div class="text-6xl">🎬</div>
-  <div class="text-2xl font-bold">Video placeholder</div>
-  <p class="text-gray-400 text-center max-w-md">Add a walkthrough video of the KWS Analytics Report Tool here</p>
+<div class="flex justify-center mt-4">
+  <video controls class="rounded-xl" style="max-height:400px; max-width:100%;">
+    <source src="/pavel/kws-walkthrough.mp4" type="video/mp4" />
+  </video>
 </div>
 
 ---
