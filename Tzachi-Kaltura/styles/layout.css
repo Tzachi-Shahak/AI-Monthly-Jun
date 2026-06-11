@@ -1,0 +1,199 @@
+/* Kaltura Brand Color Palette */
+:root {
+  --slide-padding-top: 8px;
+  --k-black:   #282828;
+  --k-white:   #ffffff;
+  --k-blue:    #006efa;
+  --k-pink:    #ff9dff;
+  --k-red:     #ff3d23;
+  --k-yellow:  #ffd357;
+  --k-green:   #5bc686;
+  --k-eggshell: #f8f8f5;
+
+  /* Convenience aliases */
+  --k-dark:    var(--k-black);
+  --k-light:   var(--k-eggshell);
+  --k-gray:    #666666;
+
+  --slidev-theme-primary: var(--k-red);
+}
+
+/* 5-color spectrum bar (brand colors, spectrum order) */
+.k-rainbow {
+  background: linear-gradient(90deg,
+    var(--k-red)    0%   20%,
+    var(--k-pink)   20%  40%,
+    var(--k-yellow) 40%  60%,
+    var(--k-green)  60%  80%,
+    var(--k-blue)   80% 100%
+  );
+}
+
+/* ── Cover ───────────────────────────────────────────── */
+.slidev-layout.cover {
+  @apply h-full flex flex-col overflow-hidden relative;
+  background: white;
+
+  h1 {
+    @apply text-5xl font-bold leading-tight;
+    color: var(--k-dark);
+    letter-spacing: -0.025em;
+  }
+
+  h1 + p {
+    @apply mt-3 text-xl;
+    color: var(--k-gray);
+  }
+
+  p + h2,
+  ul + h2,
+  table + h2 {
+    @apply mt-10;
+  }
+}
+
+/* ── Intro ───────────────────────────────────────────── */
+.slidev-layout.intro {
+  @apply h-full flex flex-col overflow-hidden relative;
+  background: var(--k-dark);
+
+  h1 {
+    @apply text-5xl font-bold leading-tight;
+    color: white;
+    letter-spacing: -0.025em;
+  }
+
+  h1 + p {
+    @apply mt-3 text-xl;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+/* ── Default ─────────────────────────────────────────── */
+.slidev-layout.default {
+  @apply h-full flex flex-col overflow-hidden relative;
+  background: var(--k-white);
+
+  h1 {
+    @apply text-3xl font-bold pb-3 mb-6;
+    color: var(--k-dark);
+    border-bottom: 4px solid var(--k-red);
+  }
+
+  h2 {
+    @apply text-2xl font-semibold mt-6 mb-2;
+    color: var(--k-dark);
+  }
+
+  h3 {
+    @apply text-lg font-semibold mt-4 mb-1;
+    color: var(--k-dark);
+  }
+
+  li {
+    @apply mb-1.5;
+  }
+
+  a {
+    color: var(--k-blue);
+    @apply no-underline hover:underline;
+  }
+
+  strong {
+    color: var(--k-dark);
+  }
+
+  code:not(pre code) {
+    @apply px-1.5 py-0.5 rounded text-sm font-mono;
+    background: rgba(0, 0, 0, 0.06);
+    color: var(--k-dark);
+  }
+}
+
+/* ── Section ─────────────────────────────────────────── */
+.slidev-layout.section {
+  @apply h-full flex flex-col overflow-hidden relative;
+  background: var(--k-dark);
+
+  h1 {
+    @apply text-5xl font-bold leading-tight;
+    color: white;
+    letter-spacing: -0.025em;
+  }
+
+  h1 + p {
+    @apply mt-3 text-lg;
+    color: rgba(255, 255, 255, 0.55);
+  }
+
+  p + h2,
+  ul + h2 {
+    @apply mt-8;
+  }
+}
+
+/* ── Two-cols (inherits default styling) ─────────────── */
+.slidev-layout.two-cols {
+  @apply h-full flex flex-col overflow-hidden relative;
+  background: white;
+
+  h1 {
+    @apply text-3xl font-bold pb-3 mb-4;
+    color: var(--k-dark);
+    border-bottom: 4px solid var(--k-red);
+  }
+}
+
+/* ── Center ──────────────────────────────────────────── */
+.slidev-layout.center {
+  @apply h-full flex flex-col overflow-hidden relative;
+  background: white;
+
+  h1 {
+    @apply text-4xl font-bold;
+    color: var(--k-dark);
+  }
+}
+
+/* ── Graphic ─────────────────────────────────────────── */
+.slidev-layout.graphic {
+  @apply h-full flex flex-col items-center justify-center overflow-hidden relative;
+  background: var(--k-black);
+
+  h1 {
+    @apply text-5xl font-bold text-center leading-tight;
+    color: var(--k-white);
+    letter-spacing: -0.025em;
+  }
+
+  p {
+    @apply text-lg text-center mt-3;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+.k-graphic-circle {
+  position: absolute;
+  border-radius: 50%;
+  /* Size: ~65% of slide height — matches reference */
+  width:  clamp(280px, 55vh, 600px);
+  height: clamp(280px, 55vh, 600px);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.k-graphic-content {
+  position: relative;
+  text-align: center;
+  padding: 0 80px;
+  /* Push content below the circle center */
+  margin-top: clamp(160px, 33vh, 340px);
+}
+
+/* ── Fact / Statement ────────────────────────────────── */
+.slidev-layout.fact,
+.slidev-layout.statement {
+  background: var(--k-black);
+  color: white;
+}
